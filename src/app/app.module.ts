@@ -11,9 +11,12 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { FavouriteMoviesComponent } from './favourite-movies/favourite-movies.component';
+import { SeriesComponent } from './series/series.component';
 
 const appRoutes: Routes = [
   { path: 'movieshomepage', component: HomepageComponent },
+  { path: 'favoritemovies', component: FavouriteMoviesComponent },
+  { path: 'series', component: SeriesComponent },
   { path: 'movieshomepage/:id',      component: MovieDetailsComponent },
   // {
   //   path: 'heroes',
@@ -33,7 +36,8 @@ const appRoutes: Routes = [
     MovieDetailsComponent,
     NavbarComponent,
     PagenotfoundComponent,
-    FavouriteMoviesComponent
+    FavouriteMoviesComponent,
+    SeriesComponent
   ],
   imports: [
     BrowserModule,

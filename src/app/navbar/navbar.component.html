@@ -1,14 +1,44 @@
-<nav class="navbar  sticky-top navbar-dark bg-dark" style="">
-    <ul class="navbar-nav">
+<!-- <nav class="navbar  sticky-top navbar-dark bg-dark" style="">
+    <ul class="navbar-nav" >
       <li class="nav-item">
         <a class="nav-link" routerLink="/movieshomepage" href="#">
           <h4 netflix >MINI-NETFLIX</h4>
         </a>
       </li>
-
+        <li class="nav-item " routerLinkActive="active current">
+            <a class="nav-link" routerLink="/allloans"><i class=" mr-3"></i>All Loans</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active current">
+            <a class="nav-link" [routerLink]="['/approvedloans']"><i class="   mr-3"></i>Approved Loans</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active current">
+            <a class="nav-link" [routerLink]="['/blockedloans']"><i class="   mr-3"></i>Blocked Loans</a>
+        </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2"  type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
+  </nav> -->
+
+  <nav class="navbar navbar-expand-md sticky-top navbar-dark  bg-dark">
+    <a class="navbar-brand" [routerLink]="['/movieshomepage']"><h4 netflix>MINI-NETFLIX</h4></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item " routerLinkActive="active current">
+          <a class="nav-link" [routerLink]="['/movieshomepage']">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active current">
+          <a class="nav-link" [routerLink]="['/series']">Series</a>
+        </li>
+        <!-- <li class="nav-item" routerLinkActive="active current">
+          <a class="nav-link" [routerLink]="['/']">Action</a>
+        </li> -->
+        <li class="nav-item" routerLinkActive="active current">
+          <a class="nav-link" [routerLink]="['/favoritemovies']">Favourites</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+    </div>
   </nav>

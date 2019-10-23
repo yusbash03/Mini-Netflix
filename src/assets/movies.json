@@ -307,92 +307,21 @@
   },
   {
     "id": 18,
-    "title": "Captain Marvel",
-    "Director":"Josh Radnor",
-    "Rated": 4.5,
-    "Released":"2019",
-    "Runtime":"128min"  ,
+    "title": "Twilight: Eclipse",
+    "Director":"Tyler Perry",
+    "Rated": 4.1,
+    "Released":"2013",
+    "Runtime":"2hrs 3min"  ,
     "Genre":"Sci-Fi",
-    "Writer":"Samuel Writes",
+    "Writer":"Danny Glover",
     "Actors":[
-      "Samuel L. Jackson","Lauren Brady","Al Pacino"
+      "Rob Patterson","Anna Kendrick","Juan Sebastian"
     ]  ,
     "Plot":"A superhero saving the universe from extinction",
     "Language":"English",
     "Country":"U.S.A",
-     "Awards":5,
-     "image":"/assets/images/posterCmarvel.jpg"
-  },
-  {
-    "id": 19,
-    "title": "Captain Marvel",
-    "Director":"Josh Radnor",
-    "Rated": 4.5,
-    "Released":"2019",
-    "Runtime":"128min"  ,
-    "Genre":"Sci-Fi",
-    "Writer":"Samuel Writes",
-    "Actors":[
-      "Samuel L. Jackson","Lauren Brady","Al Pacino"
-    ]  ,
-    "Plot":"A superhero saving the universe from extinction",
-    "Language":"English",
-    "Country":"U.S.A",
-     "Awards":7,
-     "image":"/assets/images/posterCmarvel.jpg"
-  },
-  {
-    "id": 20,
-    "title": "Captain Marvel",
-    "Director":"Josh Radnor",
-    "Rated": 4.5,
-    "Released":"2019",
-    "Runtime":"128min"  ,
-    "Genre":"Sci-Fi",
-    "Writer":"Samuel Writes",
-    "Actors":[
-      "Samuel L. Jackson","Lauren Brady","Al Pacino"
-    ]  ,
-    "Plot":"A superhero saving the universe from extinction",
-    "Language":"English",
-    "Country":"U.S.A",
-     "Awards":7,
-     "image":"/assets/images/posterCmarvel.jpg"
-  },
-  {
-    "id": 21,
-    "title": "Captain Marvel",
-    "Director":"Josh Radnor",
-    "Rated": 4.5,
-    "Released":"2019",
-    "Runtime":"128min"  ,
-    "Genre":"Sci-Fi",
-    "Writer":"Samuel Writes",
-    "Actors":[
-      "Samuel L. Jackson","Lauren Brady","Al Pacino"
-    ]  ,
-    "Plot":"A superhero saving the universe from extinction",
-    "Language":"English",
-    "Country":"U.S.A",
-     "Awards":7,
-     "image":"/assets/images/posterCmarvel.jpg"
-  },
-  {
-  "id": 22,
-    "title": "Captain Marvel",
-    "Director":"Josh Radnor",
-    "Rated": 4.5,
-    "Released":"2019",
-    "Runtime":"128min"  ,
-    "Genre":"Sci-Fi",
-    "Writer":"Samuel Writes",
-    "Actors":[
-      "Samuel L. Jackson","Lauren Brady","Al Pacino"
-    ]  ,
-    "Plot":"A superhero saving the universe from extinction",
-    "Language":"English",
-    "Country":"U.S.A",
-     "Awards":7,
-     "image":"/assets/images/posterCmarvel.jpg"
+     "Awards":3,
+     "image":"/assets/images/posterTwilight.jpg"
   }
+
 ]
